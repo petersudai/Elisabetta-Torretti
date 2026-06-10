@@ -47,7 +47,7 @@ export default function Story() {
                     {item.year}
                   </span>
                 </div>
-                <div className="relative">
+                <div className="relative pl-5">
                   <span className="absolute -left-[0.875rem] top-[0.55rem] h-3 w-3 rounded-full bg-mint-bright ring-4 ring-ink" />
                   <p className="max-w-md text-[1.02rem] leading-relaxed text-cream/85">
                     {item.text}
