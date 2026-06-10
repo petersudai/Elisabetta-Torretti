@@ -136,10 +136,12 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: EASE, delay: 0.9 }}
             className="mt-8 max-w-xl text-lg leading-relaxed text-muted md:text-xl"
           >
-            Speaker. Startup advisor. Founder of <span className="text-ink">Mint &amp; Lemon</span>.
-            I went from sleeping on a couch with no English to{" "}
+            Founder &amp; CEO of <span className="text-ink">Mint &amp; Lemon</span>, building
+            personal brands for startup founders and CEOs. I went from sleeping on a couch with
+            no English to{" "}
             <span className="text-ink">137,000+ LinkedIn followers</span> and a business built
-            entirely on personal branding. Let me show you what actually works. No fluff, just results.
+            entirely on personal branding. Speaker and startup advisor, too. Let me show you what
+            actually works. No fluff, just results.
           </motion.p>
 
           <motion.div
