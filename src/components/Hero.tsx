@@ -26,8 +26,8 @@ function Portrait() {
             src="/images/elisabetta.jpg"
             alt="Elisabetta Torretti, Founder & CEO of Mint & Lemon"
             onError={() => setErr(true)}
-            className="absolute inset-0 h-full w-full scale-[1.18] object-cover"
-            style={{ objectPosition: "52% 16%", transformOrigin: "52% 12%" }}
+            className="absolute inset-0 h-full w-full scale-[1.5] object-cover"
+            style={{ objectPosition: "53% 19%", transformOrigin: "52% 17%" }}
           />
         ) : (
           <div className="absolute inset-0 grid place-items-center">
