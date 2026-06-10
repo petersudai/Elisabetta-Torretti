@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
-      <div className="grain" aria-hidden />
+      <div className="grain hidden md:block" aria-hidden />
       <Nav />
       <main>
         <Hero />

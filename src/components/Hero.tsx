@@ -26,6 +26,11 @@ function Portrait() {
             src="/images/elisabetta.jpg"
             alt="Elisabetta Torretti, Founder & CEO of Mint & Lemon"
             onError={() => setErr(true)}
+            width={1200}
+            height={1600}
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
             className="absolute inset-0 h-full w-full scale-[1.5] object-cover"
             style={{ objectPosition: "53% 19%", transformOrigin: "52% 17%" }}
           />
