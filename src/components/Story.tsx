@@ -35,6 +35,21 @@ export default function Story() {
                 </p>
               </blockquote>
             </Reveal>
+            <Reveal delay={0.26}>
+              <figure className="mt-10">
+                <div className="w-full max-w-[20rem] overflow-hidden rounded-2xl ring-1 ring-cream/15">
+                  <img
+                    src="/images/elisabetta-3.jpg"
+                    alt="Elisabetta Torretti in London"
+                    loading="lazy"
+                    className="aspect-[3/4] w-full object-cover"
+                  />
+                </div>
+                <figcaption className="label mt-3 text-cream/45">
+                  London, where it all came together 🇬🇧
+                </figcaption>
+              </figure>
+            </Reveal>
           </div>
 
           {/* Right — timeline */}

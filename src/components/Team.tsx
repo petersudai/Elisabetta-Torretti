@@ -3,8 +3,11 @@ import { TEAM } from "../site";
 
 export default function Team() {
   return (
-    <section id="team" className="scroll-mt-20 bg-paper/60 px-6 py-24 md:px-10 md:py-32">
-      <div className="mx-auto max-w-[88rem]">
+    <section id="team" className="relative scroll-mt-20 overflow-hidden bg-paper/60 px-6 py-24 md:px-10 md:py-32">
+      {/* soft brand washes */}
+      <div className="pointer-events-none absolute -right-48 top-0 h-[30rem] w-[30rem] rounded-full bg-mint-surface/50 blur-[150px]" />
+      <div className="pointer-events-none absolute -left-40 -bottom-16 h-[24rem] w-[24rem] rounded-full bg-lemon-surface/40 blur-[150px]" />
+      <div className="relative mx-auto max-w-[88rem]">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr] lg:items-end">
           <div>
             <SectionLabel index="05">The team</SectionLabel>

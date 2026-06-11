@@ -3,8 +3,11 @@ import { HELP } from "../site";
 
 export default function Help() {
   return (
-    <section id="help" className="scroll-mt-20 px-6 py-24 md:px-10 md:py-32">
-      <div className="mx-auto max-w-[88rem]">
+    <section id="help" className="relative scroll-mt-20 overflow-hidden px-6 py-24 md:px-10 md:py-32">
+      {/* soft brand washes */}
+      <div className="pointer-events-none absolute -right-44 -top-12 h-[30rem] w-[30rem] rounded-full bg-lemon-surface/45 blur-[150px]" />
+      <div className="pointer-events-none absolute -left-44 bottom-0 h-[26rem] w-[26rem] rounded-full bg-mint-surface/40 blur-[150px]" />
+      <div className="relative mx-auto max-w-[88rem]">
         <div className="grid gap-8 lg:grid-cols-[1fr_1fr] lg:items-end">
           <div>
             <SectionLabel index="02">What you get</SectionLabel>
