@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
@@ -25,6 +26,7 @@ export default function App() {
         <CTA />
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
